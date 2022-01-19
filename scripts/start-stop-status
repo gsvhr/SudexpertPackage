@@ -5,12 +5,14 @@ case $1 in
 	start)
 		### Start this package.
 		examplePkg "Start"
+		synosystemctl start pkguser-blazor
 		echo "the package has been started" > $SYNOPKG_TEMP_LOGFILE
 		exit 0
 	;;
 	stop)
 		### Stop this package.
 		examplePkg "Stop"
+		synosystemctl stop pkguser-blazor
 		echo "the package has been stopped" > $SYNOPKG_TEMP_LOGFILE
 		exit 0
 	;;
@@ -28,4 +30,3 @@ case $1 in
 		exit 0
 	;;
 esac
-

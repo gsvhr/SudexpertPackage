@@ -1,5 +1,20 @@
 {
     "usr-local-linker": {
-        "bin": ["usr/local/bin/examplePkg"]
+        "bin": [
+            "usr/local/bin/examplePkg"
+        ]
+    },
+    "systemd-user-unit": {},
+    "data-share": {
+        "shares": [
+            {
+                "name": "blazor",
+                "permission": {
+                    "rwx": [
+                        "blazor"
+                    ]
+                }
+            }
+        ]
     }
 }

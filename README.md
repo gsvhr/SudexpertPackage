@@ -1,4 +1,4 @@
-# Synology Example Package.
+# Synology Sudexpert Package.
 
 This package is depend on Synology toolkit framework.
 This package is a template package, users can modify this package to generate their own packages.
